@@ -1,0 +1,248 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Bebas+Neue&family=Mulish:wght@400;700&family=Nunito:wght@400;800&family=Playfair+Display:wght@900&family=Poppins:wght@400;500;700;800&display=swap');
+  /*
+font-family: 'Arima', cursive;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    font-family: 'Arima', cursive;
+    background-color: #FEFEFE;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(https://images.pexels.com/photos/2574489/pexels-photo-2574489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+}
+/*barra de navegacion*/
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    color: #FEFEFE;
+    padding: 20px;
+    display: block;
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+    color: #E53E2E; 
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+/*header cabezera dspues d ela barra*/
+
+.header-content{
+    width: 100%;
+}
+.header-txt{
+    width: 50%;
+    padding: 30px 0 0 0;
+
+}
+.oferta{
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 13px;
+    color: #FEFEFE;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: #F5BE20;
+    margin-bottom: 35px;
+
+}
+.header-txt h1{
+    font-size: 110px;
+    line-height: 110px;
+    font-family: 'Bebas Neue', sans-serif, cursive;
+    color: #FEFEFE;
+    margin-bottom: 35px;
+}
+.btn-1{
+    display: inline-block;
+    padding: 13px;
+    background-color: #E83D2C;
+    color: #FEFEFE;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.btn-1:hover{
+    background-color: #E83D2C;
+}
+
+/*section*/
+
+.about{
+    padding: 100px 0 0 0;
+    display: flex;
+    align-items: center;
+
+}
+.about-img{
+    width: 50%;
+    text-align: center;
+
+}
+.about-img img{
+    height: 700px;
+}
+.about-txt{
+    width: 50%;
+}
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #101010;
+}
+p{
+    font-size: 16px;
+    color:#727272;
+    margin-bottom: 25px;
+}
+
+/* clas main de las imagenes y susj comodaciones*/
+.ofert{
+    padding: 100px 0;
+    display: flex;
+
+}
+.ofert-img{
+    width: 50%;
+
+}
+
+.product{
+    text-align: center;
+    padding: 0 0 100px 0;
+
+}
+.product-content{
+    margin: 50px 0 70px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.product-1{
+    width: 400px;
+    padding: 25px 50px;
+}
+.product-1 img{
+    width: 200px;
+
+}
+.product-1 h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 15px 0;
+}
+.product-1 span{
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    color: #E83D2C;
+    margin-bottom: 15px;
+}
+
+.news{
+padding: 100px 0;
+background-color: #E53E2E;
+}
+
+.news-content{
+    display: flex;
+    align-items: center;
+}
+.news-1{
+    padding-left: 100px;
+    width: 50%;
+}
+.news-1 h3{
+    font-size: 30px;
+    color: #FEFEFE;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.news-1 p{
+    color: #DCDCDC;
+}
+.news-2{
+    width: 50%;
+    padding: 0 50px;
+  
+
+}
+form{
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 450px;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    margin-right: 10px;
+}
+.btn-2{
+    width: 150px;
+    background-color: #F5BE20;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #DCDCDC;
+}
+/*footer o final*/
+.footer{
+    background-color: #171717;
+    padding: 100px 0;
+    margin-top: 7px;
+
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
